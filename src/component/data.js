@@ -254,7 +254,7 @@ export const designItems = [
     type: 'simple',
   },
   {
-    name: 'نوازنده تینکو خانم',
+    name: 'نوازنده تینپو خانم',
     id: 490,
     price: 1500000,
     check: false,
