@@ -40,7 +40,7 @@ class ComponentToPrint extends React.Component {
 
         <div className="content  mt-3">
           <p>طرفین قرارداد</p>
-          <p>مدیریت تالار قصر رویال(برگزار کننده مراسم )</p>
+          <p>مدیریت تالار قصر چهل ستون(برگزار کننده مراسم )</p>
           <div className="df">
             <p>
               و جناب اقای/سرکار خانم: <b>{bill.name}</b>{' '}
@@ -76,7 +76,7 @@ class ComponentToPrint extends React.Component {
           </div>
 
           <p>
-            در تالار قصر رویال به تعداد {bill.guestNum} میهمان از ساعت{' '}
+            در تالار قصر چهل ستون به تعداد {bill.guestNum} میهمان از ساعت{' '}
             {bill.from} تا ساعت {bill.to} برگزار میگردد.
             {bill.priod === 'بعد از ظهر' ? (
               <></>
