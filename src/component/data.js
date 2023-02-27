@@ -240,6 +240,27 @@ export const designItems = [
     type: 'simple',
   },
   {
+    name: 'عقد آریایی',
+    id: 488,
+    price: 13000000,
+    check: false,
+    type: 'simple',
+  },
+  {
+    name: 'عاقد عقد آریایی',
+    id: 489,
+    price: 3500000,
+    check: false,
+    type: 'simple',
+  },
+  {
+    name: 'نوازنده تینکو خانم',
+    id: 490,
+    price: 1500000,
+    check: false,
+    type: 'simple',
+  },
+  {
     name: 'دف نواز',
     id: 207,
     price: 0,
