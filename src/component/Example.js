@@ -177,25 +177,27 @@ class ComponentToPrint extends React.Component {
           )}
 
           <div className="df">
+           
             <p className="">
               {' '}
-              ورودی:
+           
               {bill.enterance > 0 ? (
                 <>
+                   ورودی:
                   <b> {bill.enterance}</b> تومان
                 </>
               ) : (
-                <> ندارد </>
+                <>  </>
               )}
             </p>
 
             {bill.discount > 0 && (
-              <p className="mr6">
+              <p className="">
                 {' '}
                 تخفیف: &nbsp;&nbsp;&nbsp; <b>{bill.discount}</b> تومان
               </p>
             )}
-            <p className="mr6">
+            <p className= { bill.enterance>0?"mr6":""}>
               {' '}
               مالیات: &nbsp;&nbsp;&nbsp; <b>9%</b>
             </p>
