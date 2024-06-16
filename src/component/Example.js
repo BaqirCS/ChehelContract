@@ -199,7 +199,7 @@ class ComponentToPrint extends React.Component {
             )}
             <p className= { bill.enterance>0?"mr6":""}>
               {' '}
-              مالیات: &nbsp;&nbsp;&nbsp; <b>9%</b>
+              مالیات: &nbsp;&nbsp;&nbsp; <b>{bill.taxt}</b>
             </p>
           </div>
           <p>
