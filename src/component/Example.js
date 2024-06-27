@@ -103,7 +103,7 @@ class ComponentToPrint extends React.Component {
                 غذای اصلی : <b> {mainFood.name && mainFood.name}</b>{' '}
               </p>
               <p className="mr1">
-                مبلغ هر پرس غذا همراه نوشابه, برنج و ماست موسیر:{' '}
+                مبلغ هر پرس غذا همراه نوشابه, برنج و سالاد:{' '}
                 <b>{mainFood.price}</b>ت
               </p>
             </div>
