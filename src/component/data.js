@@ -325,6 +325,13 @@ export const designItems = [
     check: false,
     type: 'simple',
   },
+   {
+    name: 'لیزر',
+    id: 49800,
+    price: 4000000,
+    check: false,
+    type: 'simple',
+  },
   {
     name: 'دف نواز',
     id: 207,
